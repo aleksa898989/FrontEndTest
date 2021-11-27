@@ -7,7 +7,7 @@ const TableItem = ({ filteredData }) => {
             <td>{item.index}</td>
             <td>{item.slot || 0}</td>
             <td>{item.city || "None"}</td>
-            <td>{item.velocity || 0.0}</td>
+            <td>{item.velocity || "0.00"}</td>
           </tr>
         );
       })}
